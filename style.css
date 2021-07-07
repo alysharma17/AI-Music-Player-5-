@@ -1,0 +1,45 @@
+.header {
+    color:aliceblue;
+    background-color: rgba(0, 225, 255, 0.397);
+    font-weight:100;
+}
+
+.title {
+    font-weight: 100;
+}
+
+#song_name {
+    background-color:#69DDFF;
+    color:white;
+    width:150px;
+    height:50px;
+    font-size:large;
+    border-radius:6%;
+
+}
+
+#song_name:hover {
+    background-color: #53b4d1;
+}
+
+
+canvas {
+    margin-top:200px;
+    border:ridge blue 3px;
+    animation-name:example;
+    animation-duration:2s;
+   animation-iteration-count:infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow:10px 10px 50px rgb(0, 204, 255);
+    }
+    to {
+        box-shadow:10px 10px 50px rgb(0, 255, 136);
+    }
+}
+
+#playing_song {
+    color:white;
+}
